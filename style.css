@@ -1,0 +1,78 @@
+body {
+    width: 900px;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    margin: 1px 200px;
+    border: 5px solid white;
+    border-bottom-color: red;
+}
+main {
+    text-align: center;
+}
+img {
+    width: 200px;
+}
+table {
+    margin: 10px 50px;
+    background-color: red;
+}
+td {
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+}
+h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+h6 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin:5px;
+}
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+  
+    width: 300px;
+    box-sizing: border-box;
+  
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 70px;
+  }
+  
+  button {
+    margin-left: .5em;
+  }
